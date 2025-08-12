@@ -1,0 +1,55 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-test-lmz
+  description: Ejemplo de servicio-test
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - go
+    - website
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: runtime
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: luismiguel
+spec:
+  memberOf: [runtime]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: runtime
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: doc-service-test-lmz
+  title: Documentation Template
+  description: Create a new standalone documentation project
+  tags:
+    - recommended
+    - techdocs
+    - mkdocs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    demo.backstage.io/techdocs-builder: local
+spec:
+  type: documentation
+  lifecycle: production
+  owner: group:default/runtime
+  
+

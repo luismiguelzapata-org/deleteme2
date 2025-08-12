@@ -1,0 +1,12 @@
+site_name: Service Test LMZ 
+
+site_description: Ejemplo de documentación para service test lmz
+
+nav:
+  - Introduction: index.md
+
+theme:
+  material
+
+plugins:
+  - techdocs-core
