@@ -5,6 +5,7 @@ metadata:
   description: Ejemplo de servicio-test
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: minikube
   tags:
     - go
     - website
