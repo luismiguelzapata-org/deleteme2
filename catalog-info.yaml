@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service-test-lmz-new
+  name: Nuevo ServiceTest
   description: Ejemplo de servicio-test
   annotations:
     backstage.io/techdocs-ref: dir:.
