@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: docs-template
-  title: Documentation Template
+  title: Documentation Template 2
   description: Create a new standalone documentation project
   tags:
     - recommended
