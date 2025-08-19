@@ -9,6 +9,7 @@ metadata:
   tags:
     - go
     - website
+    - test
   links:
     - url: https://dashboard.example.com
       title: My Dashboard
