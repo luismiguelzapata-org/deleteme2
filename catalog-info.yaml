@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Nuevo ServiceTest
+  name: NuevoServiceTest
   description: Ejemplo de servicio-test
   annotations:
     backstage.io/techdocs-ref: dir:.
